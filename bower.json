@@ -1,0 +1,21 @@
+{
+  "name": "riot-amd-kit",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fetch": "^1.0.0",
+    "riot": "^2.4.1",
+    "promise-polyfill": "^5.2.1",
+    "l20n": "^3.5"
+  }
+}
