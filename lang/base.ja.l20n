@@ -1,1 +1,2 @@
 <about "気持ち良いに書き">
+<hello "Konichiwa {{ $name }}">

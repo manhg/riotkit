@@ -10,8 +10,14 @@
     <![endif]-->
 </head>
 <body>
-    <p data-l10n-id="about"></p>
-    <script src="/lib/tAMD.min.js"></script>
+    <x-hello></x-hello>
+    <script src="/vendor/underscore/underscore-min.js"></script>
     <script src="/vendor/promise-polyfill/promise.min.js"></script>
     <script src="/vendor/l20n/dist/compat/web/l20n.js"></script>
+    <script src="/vendor/riot/riot+compiler.js"></script>
+    <script src="/lib/tAMD.min.js"></script>
+    <script type="riot/tag" src="/tags/hello.tag"></script>
+    <script>
+      riot.mount('x-hello')
+    </script>
 </body>

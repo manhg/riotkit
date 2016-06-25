@@ -1,1 +1,2 @@
-<about "to be pleasant to write content">
+<about "To be pleasant to write content">
+<hello "Hello {{ $name }}">
