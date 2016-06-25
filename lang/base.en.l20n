@@ -1,2 +1,3 @@
 <about "To be pleasant to write content">
 <hello "Hello {{ $name }}">
+<title "Riot tag + AMD loader + L20N localization">
